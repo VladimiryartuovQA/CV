@@ -1,0 +1,98 @@
+
+header {
+  font-family: Roboto, sans-serif;
+  color: red;
+  font-size: 100px;
+}
+
+
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.Ford {
+  color: orange;
+}
+
+button {
+  color: blue;
+  font-size: 25px;
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+
+href {
+  color: darkred;
+}
+
+footer {
+  font-size: 25px;
+}
+.contacts {
+  display: block;
+  text-decoration:none;
+  margin-left: 70px;
+  position: relative;
+  font-size: 25px;
+}
+
+
+  
+.photo {
+  border-radius: 0px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: Cover;
+}
+
+.photo1 {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: Cover;
+}
+
+
+  
+footer:hover {
+  color: goldenrod;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:darkred;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+
